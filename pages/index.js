@@ -1,8 +1,5 @@
 import { useState } from "react";
-
-function Header(props) {
-  return <h1>{props.title}</h1>;
-}
+import Header from "./components/Header";
 
 export default function HomePage() {
   const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"];
